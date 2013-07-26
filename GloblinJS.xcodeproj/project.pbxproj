@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C576798117A253F60057C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798017A253F60057C64A /* Foundation.framework */; };
+		C576798617A253F60057C64A /* GloblinJS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C576798517A253F60057C64A /* GloblinJS.h */; };
+		C576798817A253F60057C64A /* GloblinJS.m in Sources */ = {isa = PBXBuildFile; fileRef = C576798717A253F60057C64A /* GloblinJS.m */; };
+		C576798F17A253F60057C64A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798E17A253F60057C64A /* XCTest.framework */; };
+		C576799017A253F60057C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798017A253F60057C64A /* Foundation.framework */; };
+		C576799217A253F60057C64A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576799117A253F60057C64A /* UIKit.framework */; };
+		C576799517A253F60057C64A /* libGloblinJS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C576797D17A253F60057C64A /* libGloblinJS.a */; };
+		C576799B17A253F60057C64A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C576799917A253F60057C64A /* InfoPlist.strings */; };
+		C576799D17A253F60057C64A /* GloblinJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C576799C17A253F60057C64A /* GloblinJSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C576799317A253F60057C64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C576797517A253F60057C64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C576797C17A253F60057C64A;
+			remoteInfo = GloblinJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C576797B17A253F60057C64A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C576798617A253F60057C64A /* GloblinJS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C576797D17A253F60057C64A /* libGloblinJS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGloblinJS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C576798017A253F60057C64A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C576798417A253F60057C64A /* GloblinJS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GloblinJS-Prefix.pch"; sourceTree = "<group>"; };
+		C576798517A253F60057C64A /* GloblinJS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloblinJS.h; sourceTree = "<group>"; };
+		C576798717A253F60057C64A /* GloblinJS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloblinJS.m; sourceTree = "<group>"; };
+		C576798D17A253F60057C64A /* GloblinJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloblinJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C576798E17A253F60057C64A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C576799117A253F60057C64A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C576799817A253F60057C64A /* GloblinJSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GloblinJSTests-Info.plist"; sourceTree = "<group>"; };
+		C576799A17A253F60057C64A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C576799C17A253F60057C64A /* GloblinJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloblinJSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C576797A17A253F60057C64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576798117A253F60057C64A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576798A17A253F60057C64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576799517A253F60057C64A /* libGloblinJS.a in Frameworks */,
+				C576798F17A253F60057C64A /* XCTest.framework in Frameworks */,
+				C576799217A253F60057C64A /* UIKit.framework in Frameworks */,
+				C576799017A253F60057C64A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C576797417A253F60057C64A = {
+			isa = PBXGroup;
+			children = (
+				C576798217A253F60057C64A /* GloblinJS */,
+				C576799617A253F60057C64A /* GloblinJSTests */,
+				C576797F17A253F60057C64A /* Frameworks */,
+				C576797E17A253F60057C64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C576797E17A253F60057C64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C576797D17A253F60057C64A /* libGloblinJS.a */,
+				C576798D17A253F60057C64A /* GloblinJSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C576797F17A253F60057C64A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C576798017A253F60057C64A /* Foundation.framework */,
+				C576798E17A253F60057C64A /* XCTest.framework */,
+				C576799117A253F60057C64A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C576798217A253F60057C64A /* GloblinJS */ = {
+			isa = PBXGroup;
+			children = (
+				C576798517A253F60057C64A /* GloblinJS.h */,
+				C576798717A253F60057C64A /* GloblinJS.m */,
+				C576798317A253F60057C64A /* Supporting Files */,
+			);
+			path = GloblinJS;
+			sourceTree = "<group>";
+		};
+		C576798317A253F60057C64A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C576798417A253F60057C64A /* GloblinJS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C576799617A253F60057C64A /* GloblinJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C576799C17A253F60057C64A /* GloblinJSTests.m */,
+				C576799717A253F60057C64A /* Supporting Files */,
+			);
+			path = GloblinJSTests;
+			sourceTree = "<group>";
+		};
+		C576799717A253F60057C64A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C576799817A253F60057C64A /* GloblinJSTests-Info.plist */,
+				C576799917A253F60057C64A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C576797C17A253F60057C64A /* GloblinJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57679A017A253F60057C64A /* Build configuration list for PBXNativeTarget "GloblinJS" */;
+			buildPhases = (
+				C576797917A253F60057C64A /* Sources */,
+				C576797A17A253F60057C64A /* Frameworks */,
+				C576797B17A253F60057C64A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GloblinJS;
+			productName = GloblinJS;
+			productReference = C576797D17A253F60057C64A /* libGloblinJS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C576798C17A253F60057C64A /* GloblinJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57679A317A253F60057C64A /* Build configuration list for PBXNativeTarget "GloblinJSTests" */;
+			buildPhases = (
+				C576798917A253F60057C64A /* Sources */,
+				C576798A17A253F60057C64A /* Frameworks */,
+				C576798B17A253F60057C64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C576799417A253F60057C64A /* PBXTargetDependency */,
+			);
+			name = GloblinJSTests;
+			productName = GloblinJSTests;
+			productReference = C576798D17A253F60057C64A /* GloblinJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C576797517A253F60057C64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Globlin;
+			};
+			buildConfigurationList = C576797817A253F60057C64A /* Build configuration list for PBXProject "GloblinJS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C576797417A253F60057C64A;
+			productRefGroup = C576797E17A253F60057C64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C576797C17A253F60057C64A /* GloblinJS */,
+				C576798C17A253F60057C64A /* GloblinJSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C576798B17A253F60057C64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576799B17A253F60057C64A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C576797917A253F60057C64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576798817A253F60057C64A /* GloblinJS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576798917A253F60057C64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576799D17A253F60057C64A /* GloblinJSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C576799417A253F60057C64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C576797C17A253F60057C64A /* GloblinJS */;
+			targetProxy = C576799317A253F60057C64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C576799917A253F60057C64A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C576799A17A253F60057C64A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C576799E17A253F60057C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C576799F17A253F60057C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57679A117A253F60057C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GloblinJS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GloblinJS/GloblinJS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C57679A217A253F60057C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GloblinJS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GloblinJS/GloblinJS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C57679A417A253F60057C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GloblinJS/GloblinJS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GloblinJSTests/GloblinJSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C57679A517A253F60057C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GloblinJS/GloblinJS-Prefix.pch";
+				INFOPLIST_FILE = "GloblinJSTests/GloblinJSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C576797817A253F60057C64A /* Build configuration list for PBXProject "GloblinJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C576799E17A253F60057C64A /* Debug */,
+				C576799F17A253F60057C64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57679A017A253F60057C64A /* Build configuration list for PBXNativeTarget "GloblinJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57679A117A253F60057C64A /* Debug */,
+				C57679A217A253F60057C64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C57679A317A253F60057C64A /* Build configuration list for PBXNativeTarget "GloblinJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57679A417A253F60057C64A /* Debug */,
+				C57679A517A253F60057C64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C576797517A253F60057C64A /* Project object */;
+}
