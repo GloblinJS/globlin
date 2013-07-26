@@ -18,5 +18,5 @@
 
   // TODO:: Possible use case of using JSObject directly and translating them to CF/NS objects? What will be the advantages?
 + (JSValueRef)valueForProperty:(NSString*)propertyName inJSObject:(JSObjectRef)jsObjectRef forLibraryContext:(JSContextRef)context;
-+ (JSObjectRef)objectForValue:(JSValueRef)jsValue forContext
++ (JSObjectRef)objectForValue:(JSValueRef)jsValue forLibraryContext:(JSContextRef)libraryContext;
 @end

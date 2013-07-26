@@ -58,7 +58,7 @@
 }
 
 /* Translate JS Value to JSON String */
-+ (NSString*)JSONStringForValue:(JSValueRef)jsValue inContext:(JSContextRef)context
++ (NSString*)JSONStringForValue:(JSValueRef)jsValue forLibraryContext:(JSContextRef)context;
 {
   JSValueRef exception = NULL;
   JSStringRef jsonString = JSValueCreateJSONString(context, jsValue, JSON_INDENTATION_LEVEL, &exception);
