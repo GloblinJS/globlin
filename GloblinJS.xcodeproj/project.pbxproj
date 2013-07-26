@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C576798117A253F60057C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798017A253F60057C64A /* Foundation.framework */; };
-		C576798617A253F60057C64A /* GloblinJS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C576798517A253F60057C64A /* GloblinJS.h */; };
-		C576798817A253F60057C64A /* GloblinJS.m in Sources */ = {isa = PBXBuildFile; fileRef = C576798717A253F60057C64A /* GloblinJS.m */; };
 		C576798F17A253F60057C64A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798E17A253F60057C64A /* XCTest.framework */; };
 		C576799017A253F60057C64A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576798017A253F60057C64A /* Foundation.framework */; };
 		C576799217A253F60057C64A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C576799117A253F60057C64A /* UIKit.framework */; };
 		C576799517A253F60057C64A /* libGloblinJS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C576797D17A253F60057C64A /* libGloblinJS.a */; };
 		C576799B17A253F60057C64A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C576799917A253F60057C64A /* InfoPlist.strings */; };
 		C576799D17A253F60057C64A /* GloblinJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C576799C17A253F60057C64A /* GloblinJSTests.m */; };
+		C57679A717A2540F0057C64A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57679A617A2540F0057C64A /* JavaScriptCore.framework */; };
+		C57679AA17A2543A0057C64A /* GloblinJS.m in Sources */ = {isa = PBXBuildFile; fileRef = C57679A917A2543A0057C64A /* GloblinJS.m */; };
+		C57679AB17A2543A0057C64A /* GloblinJS.m in Sources */ = {isa = PBXBuildFile; fileRef = C57679A917A2543A0057C64A /* GloblinJS.m */; };
+		C57679C817A256D10057C64A /* GloblinJS.h in Sources */ = {isa = PBXBuildFile; fileRef = C57679A817A2543A0057C64A /* GloblinJS.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C576798617A253F60057C64A /* GloblinJS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +46,15 @@
 		C576797D17A253F60057C64A /* libGloblinJS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGloblinJS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C576798017A253F60057C64A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C576798417A253F60057C64A /* GloblinJS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GloblinJS-Prefix.pch"; sourceTree = "<group>"; };
-		C576798517A253F60057C64A /* GloblinJS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloblinJS.h; sourceTree = "<group>"; };
-		C576798717A253F60057C64A /* GloblinJS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloblinJS.m; sourceTree = "<group>"; };
 		C576798D17A253F60057C64A /* GloblinJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloblinJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C576798E17A253F60057C64A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C576799117A253F60057C64A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C576799817A253F60057C64A /* GloblinJSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GloblinJSTests-Info.plist"; sourceTree = "<group>"; };
 		C576799A17A253F60057C64A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C576799C17A253F60057C64A /* GloblinJSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloblinJSTests.m; sourceTree = "<group>"; };
+		C57679A617A2540F0057C64A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C57679A817A2543A0057C64A /* GloblinJS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GloblinJS.h; sourceTree = "<group>"; };
+		C57679A917A2543A0057C64A /* GloblinJS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GloblinJS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57679A717A2540F0057C64A /* JavaScriptCore.framework in Frameworks */,
 				C576798117A253F60057C64A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +103,7 @@
 		C576797F17A253F60057C64A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C57679A617A2540F0057C64A /* JavaScriptCore.framework */,
 				C576798017A253F60057C64A /* Foundation.framework */,
 				C576798E17A253F60057C64A /* XCTest.framework */,
 				C576799117A253F60057C64A /* UIKit.framework */,
@@ -110,8 +114,8 @@
 		C576798217A253F60057C64A /* GloblinJS */ = {
 			isa = PBXGroup;
 			children = (
-				C576798517A253F60057C64A /* GloblinJS.h */,
-				C576798717A253F60057C64A /* GloblinJS.m */,
+				C57679A817A2543A0057C64A /* GloblinJS.h */,
+				C57679A917A2543A0057C64A /* GloblinJS.m */,
 				C576798317A253F60057C64A /* Supporting Files */,
 			);
 			path = GloblinJS;
@@ -224,7 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C576798817A253F60057C64A /* GloblinJS.m in Sources */,
+				C57679C817A256D10057C64A /* GloblinJS.h in Sources */,
+				C57679AA17A2543A0057C64A /* GloblinJS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57679AB17A2543A0057C64A /* GloblinJS.m in Sources */,
 				C576799D17A253F60057C64A /* GloblinJSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +409,7 @@
 				C57679A217A253F60057C64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C57679A317A253F60057C64A /* Build configuration list for PBXNativeTarget "GloblinJSTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +418,7 @@
 				C57679A517A253F60057C64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
